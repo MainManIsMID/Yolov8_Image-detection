@@ -34,16 +34,6 @@ for image_file in image_files:
             
         
         
-        
-      #for x in boxes.conf:
-         #   if x >= 0.5:
-                
-          #      confidence = x
-        
-       # if 0 in [box.cls for box in boxes] and confidence:
-        #    has_person = True    
-        
-    
     
         
         if has_person:
