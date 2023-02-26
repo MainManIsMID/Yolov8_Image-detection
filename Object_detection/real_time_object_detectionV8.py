@@ -8,10 +8,7 @@ import pandas as pd
 
 model = YOLO('yolov8n.pt')
 
-#imgs = ["https://daily.jstor.org/wp-content/uploads/2017/12/traffic_jam_1050x700.jpg"]
 
-
-#results = model(imgs)
 
 cap = cv2.VideoCapture(2) #this depends try 0,1 or 2 on device
 while cap.isOpened():
