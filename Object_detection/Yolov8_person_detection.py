@@ -7,7 +7,6 @@ import pandas as pd
 import os
 import glob
 from PIL import Image
-from roboflow import Roboflow
 
 model = YOLO('yolov8n.pt')
 model.train(data = 'coco128.yaml' ,epochs=5)
