@@ -1,0 +1,9 @@
+Dependencies:
+Before using the code make sure to install all these libraries:
+- pytorch
+- opencv-python
+- numpy 
+- matplotlib
+- ultralytics
+- os
+- pandas
